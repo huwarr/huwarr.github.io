@@ -19,8 +19,7 @@
             document.getElementById("dice4").style.display = 'none';
             document.getElementById("dice5").style.display = 'none';
             document.getElementById("dice6").style.display = 'none';
-            document.getElementById("mix_image").style.display = 'none';
-            document.getElementById("throw_image").style.display = 'none';
+            document.getElementById("start_image").style.display = 'none';
             document.getElementById("throw_button").style.display = 'none';
             document.getElementById("again_button").style.display = '';
             var n = randomInteger(1, 6);
@@ -36,7 +35,7 @@
             document.getElementById("dice4").style.display = 'none';
             document.getElementById("dice5").style.display = 'none';
             document.getElementById("dice6").style.display = 'none';
-            document.getElementById("mix_image").style.display = '';
+            document.getElementById("start_image").style.display = '';
         }
   </script>
     <style>
@@ -65,7 +64,7 @@
             <input id="again_button" type="button" name="send" value="Потрясти кубик" class="btn btn-lg btn-secondary" onclick="again();" style="display: none">
         </div>
         <div>
-            <img id="mix_image" src="./mix.gif" width=300 height=300 vspace="7">
+            <img id="start_image" src="./mix.gif" width=300 height=300 vspace="7">
         </div>
         <div class="d-flex align-items-center justify-content-center p-3 py-5 mt-2 rounded" style="font-size: 10em;">
             <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dice-1" fill="currentColor" xmlns="http://www.w3.org/2000/svg" id="dice1" style="display: none">
